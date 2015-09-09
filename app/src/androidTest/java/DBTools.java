@@ -18,7 +18,8 @@ public class DBTools extends SQLiteOpenHelper{
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-
+        String query = "CREATE TABLE contacts (contactId INTEGER PRIMARY KEY, firstName TEXT, "+
+                "lastName TEXT, phoneNumber TEXT, ";
     }
 
     @Override
